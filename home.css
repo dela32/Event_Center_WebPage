@@ -1,0 +1,206 @@
+.navigationbar{
+    font-size: 1.2rem;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: flex-end;
+    padding 10px;
+}
+.navigationbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.italiana-regular {
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color:cornsilk;
+    font-family: "Italiana", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.hero a{
+    color: white;
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.hero-paragraph{
+    color:white;
+    font-family: "Italiana", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+p{
+    color: black;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.Welcome-Message{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.About-Us-Message{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+.Featured{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.Welcome-Message-Para{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 70px;
+}
+
+.About-Us-Message-Para{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 70px;
+}
+
+.WelcomeMessage{
+    display:flex;
+    flex-direction: row;
+    text-align: right;
+    padding: 30px;
+    margin: 30px;
+
+}
+.AboutUs{
+    display:flex;
+    flex-direction: row;
+    text-align: right;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.hero{
+    width: 100%;
+    height: 34rem;
+    background-image: url(Pictures/photo-1608245449230-4ac19066d2d0.avif);
+    justify-content: center;
+    background-size: cover;
+    background-position:center;
+    color:aliceblue;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.buttonclass {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* Buttons */
+.button-picture1, .button-picture2, .button-picture3 {
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.button-picture1 {
+    background-image: url('Pictures/football.jpg');
+}
+
+.button-picture2 {
+    background-image: url('Pictures/photo-1480563597043-1c877e682fc7.avif');
+}
+
+.button-picture3 {
+    background-image: url('Pictures/basketball.jpg');
+}
+
+.button-picture1:hover,
+.button-picture2:hover,
+.button-picture3:hover {
+    opacity: .9;
+}
+
+.border-img{
+    border-radius: 20px;
+}
+footer{
+    font-size: .5rem;
+    color: black;
+}

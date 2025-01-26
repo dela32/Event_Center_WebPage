@@ -1,0 +1,68 @@
+.navigationbar{
+    font-size: 1.2rem;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: flex-end;
+    padding 10px;
+}
+.navigationbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+body {
+    background-color:cornsilk;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+p{
+    color: black;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+table{
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    font-family: "Italiana", serif;
+    font-style: normal;
+    font-size: 3rem;
+    padding-top: 30px;
+
+}
+
+td{
+    font-family: "Italiana", serif;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 15px;
+
+}
+
+footer{
+    font-size: .5rem;
+    color: black;
+}

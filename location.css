@@ -1,0 +1,82 @@
+.navigationbar{
+    font-size: 1.2rem;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: flex-end;
+    padding 10px;
+}
+.navigationbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+body {
+    background-color:cornsilk;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+p{
+    color: black;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+img{
+    padding: 3rem;
+}
+
+.location-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 2rem;
+}
+
+
+.map {
+    flex: 1;
+}
+
+
+.location-info {
+    flex: 2;
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer{
+    font-size: .5rem;
+    color: black;
+}

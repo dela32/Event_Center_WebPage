@@ -1,0 +1,102 @@
+.navigationbar{
+    font-size: 1.2rem;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: flex-end;
+    padding 10px;
+}
+.navigationbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+body {
+    background-color:cornsilk;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+p{
+    color: black;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+footer{
+    font-size: .5rem;
+    color: black;
+}
+
+.buttonclass {
+    display: flex;             
+    justify-content: space-around;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.event-container {
+    text-align: center;
+    max-width: 400px;
+}
+
+.description {
+    color: black;
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.button-picture1, .button-picture2, .button-picture3 {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Italiana", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.button-picture1 {
+    background-image: url('Pictures/football.jpg');
+}
+
+.button-picture2 {
+    background-image: url('Pictures/photo-1480563597043-1c877e682fc7.avif');
+}
+
+.button-picture3 {
+    background-image: url('Pictures/basketball.jpg');
+}
+
+.button-picture1:hover,
+.button-picture2:hover,
+.button-picture3:hover {
+    opacity: .9;
+}
